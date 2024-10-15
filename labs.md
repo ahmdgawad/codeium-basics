@@ -1,13 +1,4 @@
 # Codeium Basics
-## Practical Tips and Best Practices
-## Session labs
-## Revision 2.2 - 08/20/24
-
-**Follow the startup instructions in the README.md file IF NOT ALREADY DONE!**
-
-**NOTE: If you are in VS Code and don't see a terminal, click on *Terminal -> New Terminal* in the menu.
-
-![Open new terminal](./images/cb18.png?raw=true "Open new terminal")
 
 
 **Lab 1 - Learning how to create good prompts for Codeium**
@@ -44,7 +35,7 @@
 8. Hit enter and you will probably see a similar line to the below. If not, you may need to use the ">" button in the acceptance bar to flip to the next option.
 
 ```
-function parseURL(url) {
+function parseJobData(job_file) {
 ```
 
 9. Just hit Tab to accept it and Enter again. Continue to use Tab and Enter to build out the function from the suggestions that Codeium provides until you get a complete function definition - something like shown below.
@@ -55,7 +46,7 @@ function parseURL(url) {
 Type the following in the empty file. (There are no parentheses after the *splitURLandReturnComponents* text.)  Do not hit tab or return yet.
 
 ```
-function splitURLandReturnComponents
+function parseJsonDataFromFile
 ```
 
 11.  With this function name, Codeium should suggest a full function definition - in fact it may suggest several.  To see the options, hover over the first line and a small window should appear. This window will note how many options there are and provide "<" and ">" links to toggle between them.  Click on the "<" and ">" buttons to see the differences in the available suggestions. Some may be full function suggestions and others may be only partial suggestions.  Choose an alternative you like and then select Tab to accept it.
